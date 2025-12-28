@@ -1,0 +1,101 @@
+product_id,brand,name,category,price,skin_types,concerns,ingredients_raw,actives,form,fragrance_free,vegan,rating
+P001,La Roche-Posay,La Roche-Posay Cleanser Lotion 1,cleanser,18.0,oily,PIH;anti-aging;sensitivity,"water, glycerin, niacinamide",niacinamide,lotion,True,True,3.8
+P002,Bioderma,Bioderma Cleanser Serum 2,cleanser,15.74,sensitive;dry;oily,anti-aging;pores,"water, glycerin, retinol",retinol,serum,False,False,3.9
+P003,Paula's Choice,Paula's Choice Moisturizer Gel 3,moisturizer,10.54,normal,anti-aging;pores,"water, glycerin, zinc oxide",zinc oxide,gel,True,False,3.6
+P004,Neutrogena,Neutrogena Moisturizer Serum 4,moisturizer,15.42,oily,sensitivity;pores;dehydration,"water, glycerin, azelaic acid",azelaic acid,serum,True,False,3.9
+P005,EltaMD,EltaMD Treatment Lotion 5,treatment,23.41,normal;oily;sensitive,dehydration;anti-aging;sun,"water, glycerin, retinol",retinol,lotion,False,False,3.9
+P006,Inkey List,Inkey List Treatment Lotion 6,treatment,47.3,combination,sun,"water, glycerin, ceramides, salicylic acid",ceramides;salicylic acid,lotion,True,False,3.8
+P007,Clinique,Clinique Sunscreen Oil 7,sunscreen,13.0,combination,anti-aging;sun;texture,"water, glycerin, vitamin C, hyaluronic acid",vitamin C;hyaluronic acid,oil,True,True,4.3
+P008,La Roche-Posay,La Roche-Posay Cleanser Gel 8,cleanser,13.49,dry,PIH;sensitivity;pores,"water, glycerin, zinc oxide, ceramides, peptides",zinc oxide;ceramides;peptides,gel,True,True,4.5
+P009,Inkey List,Inkey List Moisturizer Lotion 9,moisturizer,11.47,combination;dry,anti-aging,"water, glycerin, retinol, salicylic acid, vitamin C",retinol;salicylic acid;vitamin C,lotion,False,True,3.7
+P010,The Ordinary,The Ordinary Cleanser Serum 10,cleanser,21.88,oily,anti-aging;PIH,"water, glycerin, azelaic acid",azelaic acid,serum,True,True,4.6
+P011,La Roche-Posay,La Roche-Posay Treatment Cream 11,treatment,38.33,combination;normal;dry,pores;PIH;anti-aging,"water, glycerin, azelaic acid, ceramides, peptides",azelaic acid;ceramides;peptides,cream,False,False,4.8
+P012,Clinique,Clinique Cleanser Cream 12,cleanser,17.01,oily;combination,sensitivity;acne;pores,"water, glycerin, niacinamide, azelaic acid, peptides",niacinamide;azelaic acid;peptides,cream,True,False,3.6
+P013,Paula's Choice,Paula's Choice Moisturizer Oil 13,moisturizer,16.5,sensitive,texture;PIH;sensitivity,"water, glycerin, azelaic acid, salicylic acid",azelaic acid;salicylic acid,oil,True,False,4.0
+P014,Olay,Olay Sunscreen Gel 14,sunscreen,38.99,oily;sensitive;combination,sun;pores;acne,"water, glycerin, azelaic acid",azelaic acid,gel,True,False,3.7
+P015,The Ordinary,The Ordinary Moisturizer Oil 15,moisturizer,18.24,dry,PIH;acne;sun,"water, glycerin, niacinamide, salicylic acid, vitamin C",niacinamide;salicylic acid;vitamin C,oil,True,True,4.1
+P016,Clinique,Clinique Treatment Oil 16,treatment,50.22,dry,pores,"water, glycerin, zinc oxide, ceramides",zinc oxide;ceramides,oil,False,False,3.7
+P017,Neutrogena,Neutrogena Treatment Gel 17,treatment,34.38,oily;normal;sensitive,texture,"water, glycerin, peptides, retinol, niacinamide",peptides;retinol;niacinamide,gel,True,True,3.6
+P018,La Roche-Posay,La Roche-Posay Treatment Oil 18,treatment,11.87,combination;oily;normal,pores,"water, glycerin, peptides, hyaluronic acid, retinol",peptides;hyaluronic acid;retinol,oil,True,False,3.9
+P019,Olay,Olay Treatment Lotion 19,treatment,28.4,oily,PIH;acne,"water, glycerin, azelaic acid, ceramides, salicylic acid",azelaic acid;ceramides;salicylic acid,lotion,False,True,4.8
+P020,EltaMD,EltaMD Moisturizer Cream 20,moisturizer,27.47,normal;oily;sensitive,anti-aging;sun;acne,"water, glycerin, ceramides",ceramides,cream,True,True,4.6
+P021,The Ordinary,The Ordinary Moisturizer Lotion 21,moisturizer,35.64,normal;combination;sensitive,anti-aging;texture;sensitivity,"water, glycerin, niacinamide, salicylic acid",niacinamide;salicylic acid,lotion,False,False,3.6
+P022,EltaMD,EltaMD Treatment Lotion 22,treatment,13.92,sensitive;dry,acne;texture;pores,"water, glycerin, retinol, niacinamide, vitamin C",retinol;niacinamide;vitamin C,lotion,False,True,4.1
+P023,CeraVe,CeraVe Moisturizer Lotion 23,moisturizer,50.05,normal,sensitivity,"water, glycerin, salicylic acid, hyaluronic acid, vitamin C",salicylic acid;hyaluronic acid;vitamin C,lotion,False,True,4.9
+P024,Paula's Choice,Paula's Choice Treatment Cream 24,treatment,49.19,combination,sun;pores;sensitivity,"water, glycerin, azelaic acid, ceramides, salicylic acid",azelaic acid;ceramides;salicylic acid,cream,True,False,4.8
+P025,Clinique,Clinique Treatment Cream 25,treatment,46.01,normal;sensitive,sensitivity,"water, glycerin, azelaic acid",azelaic acid,cream,False,False,3.9
+P026,La Roche-Posay,La Roche-Posay Moisturizer Lotion 26,moisturizer,37.43,sensitive;normal,PIH,"water, glycerin, retinol, ceramides",retinol;ceramides,lotion,True,True,4.4
+P027,EltaMD,EltaMD Moisturizer Oil 27,moisturizer,35.7,oily;dry;normal,anti-aging,"water, glycerin, vitamin C",vitamin C,oil,True,True,4.0
+P028,La Roche-Posay,La Roche-Posay Moisturizer Serum 28,moisturizer,21.38,normal,anti-aging;sun;sensitivity,"water, glycerin, vitamin C, ceramides",vitamin C;ceramides,serum,True,True,4.1
+P029,Olay,Olay Treatment Serum 29,treatment,33.89,sensitive;oily,anti-aging;PIH,"water, glycerin, hyaluronic acid, zinc oxide",hyaluronic acid;zinc oxide,serum,False,False,4.5
+P030,Inkey List,Inkey List Sunscreen Cream 30,sunscreen,38.28,sensitive;normal,sensitivity,"water, glycerin, ceramides, azelaic acid, vitamin C",ceramides;azelaic acid;vitamin C,cream,True,True,3.5
+P031,Paula's Choice,Paula's Choice Sunscreen Serum 31,sunscreen,47.64,dry,sensitivity;sun,"water, glycerin, vitamin C, zinc oxide, azelaic acid",vitamin C;zinc oxide;azelaic acid,serum,True,True,4.5
+P032,CeraVe,CeraVe Cleanser Oil 32,cleanser,16.72,sensitive;dry;oily,sensitivity;pores;acne,"water, glycerin, retinol, zinc oxide",retinol;zinc oxide,oil,False,False,4.4
+P033,Inkey List,Inkey List Sunscreen Serum 33,sunscreen,27.85,dry,anti-aging;pores,"water, glycerin, ceramides",ceramides,serum,False,True,3.9
+P034,La Roche-Posay,La Roche-Posay Moisturizer Cream 34,moisturizer,19.31,sensitive;oily,dehydration,"water, glycerin, vitamin C",vitamin C,cream,True,True,3.6
+P035,Olay,Olay Moisturizer Serum 35,moisturizer,28.83,combination,pores;texture,"water, glycerin, niacinamide, vitamin C, azelaic acid",niacinamide;vitamin C;azelaic acid,serum,True,False,3.9
+P036,Olay,Olay Sunscreen Serum 36,sunscreen,42.63,sensitive;combination;dry,anti-aging,"water, glycerin, zinc oxide, niacinamide",zinc oxide;niacinamide,serum,False,False,4.5
+P037,Olay,Olay Treatment Oil 37,treatment,51.06,sensitive;oily;combination,acne;texture;sun,"water, glycerin, retinol, zinc oxide",retinol;zinc oxide,oil,True,True,3.9
+P038,EltaMD,EltaMD Treatment Oil 38,treatment,22.02,normal;dry,PIH;sensitivity,"water, glycerin, peptides",peptides,oil,True,False,3.8
+P039,La Roche-Posay,La Roche-Posay Cleanser Gel 39,cleanser,52.53,oily,dehydration;PIH;pores,"water, glycerin, salicylic acid, azelaic acid",salicylic acid;azelaic acid,gel,False,False,4.7
+P040,The Ordinary,The Ordinary Cleanser Cream 40,cleanser,53.27,sensitive,anti-aging,"water, glycerin, vitamin C, peptides, hyaluronic acid",vitamin C;peptides;hyaluronic acid,cream,True,True,4.4
+P041,Paula's Choice,Paula's Choice Cleanser Lotion 41,cleanser,47.66,oily;sensitive;combination,pores;sun;dehydration,"water, glycerin, peptides",peptides,lotion,False,True,4.8
+P042,Clinique,Clinique Cleanser Oil 42,cleanser,53.08,dry;combination;sensitive,anti-aging,"water, glycerin, peptides, zinc oxide, azelaic acid",peptides;zinc oxide;azelaic acid,oil,False,False,4.0
+P043,Paula's Choice,Paula's Choice Cleanser Lotion 43,cleanser,49.2,dry,pores;dehydration;acne,"water, glycerin, hyaluronic acid, retinol",hyaluronic acid;retinol,lotion,False,True,4.0
+P044,Neutrogena,Neutrogena Moisturizer Lotion 44,moisturizer,49.14,normal;oily;sensitive,PIH,"water, glycerin, vitamin C",vitamin C,lotion,False,True,4.5
+P045,Clinique,Clinique Sunscreen Gel 45,sunscreen,10.56,dry,sensitivity;dehydration;sun,"water, glycerin, hyaluronic acid, zinc oxide, ceramides",hyaluronic acid;zinc oxide;ceramides,gel,False,False,5.0
+P046,Inkey List,Inkey List Moisturizer Lotion 46,moisturizer,40.44,normal;sensitive,PIH,"water, glycerin, azelaic acid, hyaluronic acid, niacinamide",azelaic acid;hyaluronic acid;niacinamide,lotion,True,True,3.8
+P047,Clinique,Clinique Moisturizer Serum 47,moisturizer,53.85,sensitive;normal;oily,anti-aging,"water, glycerin, hyaluronic acid",hyaluronic acid,serum,True,False,3.5
+P048,Inkey List,Inkey List Treatment Lotion 48,treatment,8.23,sensitive,dehydration;sun,"water, glycerin, salicylic acid, niacinamide",salicylic acid;niacinamide,lotion,False,False,4.2
+P049,EltaMD,EltaMD Treatment Gel 49,treatment,18.37,oily;sensitive,texture;acne,"water, glycerin, niacinamide, retinol, salicylic acid",niacinamide;retinol;salicylic acid,gel,False,True,5.0
+P050,La Roche-Posay,La Roche-Posay Sunscreen Serum 50,sunscreen,35.21,combination;dry;sensitive,anti-aging;pores,"water, glycerin, vitamin C, ceramides, zinc oxide",vitamin C;ceramides;zinc oxide,serum,True,True,4.9
+P051,Paula's Choice,Paula's Choice Treatment Lotion 51,treatment,38.36,combination,PIH,"water, glycerin, niacinamide",niacinamide,lotion,False,False,4.5
+P052,Clinique,Clinique Moisturizer Gel 52,moisturizer,17.34,normal;dry;oily,sensitivity;dehydration;sun,"water, glycerin, azelaic acid, vitamin C, niacinamide",azelaic acid;vitamin C;niacinamide,gel,True,True,4.9
+P053,The Ordinary,The Ordinary Cleanser Gel 53,cleanser,14.13,sensitive;normal,PIH;sensitivity,"water, glycerin, ceramides, vitamin C, retinol",ceramides;vitamin C;retinol,gel,False,False,3.6
+P054,CeraVe,CeraVe Sunscreen Lotion 54,sunscreen,35.58,oily,acne,"water, glycerin, ceramides, niacinamide, vitamin C",ceramides;niacinamide;vitamin C,lotion,True,False,4.3
+P055,Clinique,Clinique Moisturizer Cream 55,moisturizer,54.85,dry;oily,sun;sensitivity,"water, glycerin, hyaluronic acid, salicylic acid",hyaluronic acid;salicylic acid,cream,True,False,4.1
+P056,Clinique,Clinique Moisturizer Oil 56,moisturizer,45.86,oily;dry;sensitive,anti-aging;dehydration,"water, glycerin, vitamin C",vitamin C,oil,True,False,4.1
+P057,Paula's Choice,Paula's Choice Moisturizer Serum 57,moisturizer,43.07,dry;oily;sensitive,dehydration;texture,"water, glycerin, zinc oxide, salicylic acid",zinc oxide;salicylic acid,serum,True,True,4.6
+P058,Neutrogena,Neutrogena Cleanser Serum 58,cleanser,25.99,oily,PIH;sun,"water, glycerin, zinc oxide",zinc oxide,serum,False,False,4.1
+P059,Clinique,Clinique Sunscreen Cream 59,sunscreen,28.38,dry,dehydration,"water, glycerin, ceramides",ceramides,cream,False,False,4.9
+P060,Inkey List,Inkey List Moisturizer Gel 60,moisturizer,19.86,sensitive;dry,texture,"water, glycerin, zinc oxide, hyaluronic acid, retinol",zinc oxide;hyaluronic acid;retinol,gel,False,False,4.9
+P061,Paula's Choice,Paula's Choice Treatment Serum 61,treatment,24.77,oily;normal,texture;sun;sensitivity,"water, glycerin, retinol, zinc oxide",retinol;zinc oxide,serum,True,True,4.3
+P062,Bioderma,Bioderma Moisturizer Gel 62,moisturizer,48.84,oily;dry,dehydration,"water, glycerin, retinol, salicylic acid",retinol;salicylic acid,gel,False,False,4.0
+P063,Olay,Olay Cleanser Lotion 63,cleanser,47.76,dry;normal;sensitive,texture;pores;anti-aging,"water, glycerin, salicylic acid",salicylic acid,lotion,True,False,5.0
+P064,La Roche-Posay,La Roche-Posay Sunscreen Gel 64,sunscreen,43.26,oily;dry;sensitive,anti-aging;acne;pores,"water, glycerin, niacinamide, ceramides",niacinamide;ceramides,gel,False,False,4.1
+P065,Paula's Choice,Paula's Choice Sunscreen Serum 65,sunscreen,39.41,combination,PIH,"water, glycerin, vitamin C, azelaic acid, zinc oxide",vitamin C;azelaic acid;zinc oxide,serum,True,True,4.2
+P066,Neutrogena,Neutrogena Sunscreen Lotion 66,sunscreen,38.68,normal;combination,texture,"water, glycerin, ceramides, vitamin C",ceramides;vitamin C,lotion,False,False,4.8
+P067,Paula's Choice,Paula's Choice Sunscreen Oil 67,sunscreen,11.23,sensitive;normal,anti-aging;sun;dehydration,"water, glycerin, vitamin C",vitamin C,oil,False,True,4.3
+P068,CeraVe,CeraVe Sunscreen Lotion 68,sunscreen,44.01,sensitive,sensitivity;sun,"water, glycerin, ceramides",ceramides,lotion,True,True,4.9
+P069,CeraVe,CeraVe Moisturizer Oil 69,moisturizer,7.63,combination;oily,sun;texture,"water, glycerin, retinol, azelaic acid",retinol;azelaic acid,oil,True,False,4.3
+P070,Neutrogena,Neutrogena Treatment Lotion 70,treatment,50.79,normal;sensitive,texture,"water, glycerin, retinol",retinol,lotion,True,False,5.0
+P071,Inkey List,Inkey List Moisturizer Gel 71,moisturizer,44.74,normal,PIH;sensitivity;dehydration,"water, glycerin, ceramides, vitamin C, zinc oxide",ceramides;vitamin C;zinc oxide,gel,False,True,4.5
+P072,Clinique,Clinique Cleanser Serum 72,cleanser,49.33,normal;combination;sensitive,texture,"water, glycerin, ceramides, vitamin C, niacinamide",ceramides;vitamin C;niacinamide,serum,True,True,4.9
+P073,Neutrogena,Neutrogena Sunscreen Gel 73,sunscreen,10.76,combination;dry;sensitive,pores;anti-aging,"water, glycerin, retinol, vitamin C, hyaluronic acid",retinol;vitamin C;hyaluronic acid,gel,True,False,4.4
+P074,Neutrogena,Neutrogena Cleanser Lotion 74,cleanser,16.65,combination;normal,sun,"water, glycerin, hyaluronic acid, niacinamide, azelaic acid",hyaluronic acid;niacinamide;azelaic acid,lotion,False,True,5.0
+P075,Clinique,Clinique Cleanser Cream 75,cleanser,37.44,oily;sensitive;combination,dehydration,"water, glycerin, azelaic acid, salicylic acid, vitamin C",azelaic acid;salicylic acid;vitamin C,cream,True,True,4.7
+P076,Paula's Choice,Paula's Choice Moisturizer Cream 76,moisturizer,44.64,oily;normal;sensitive,anti-aging,"water, glycerin, salicylic acid",salicylic acid,cream,True,True,3.5
+P077,Paula's Choice,Paula's Choice Moisturizer Gel 77,moisturizer,14.54,combination,pores;anti-aging;acne,"water, glycerin, salicylic acid, zinc oxide, azelaic acid",salicylic acid;zinc oxide;azelaic acid,gel,False,True,4.2
+P078,Paula's Choice,Paula's Choice Cleanser Serum 78,cleanser,20.78,oily;sensitive;combination,pores;sun,"water, glycerin, zinc oxide",zinc oxide,serum,False,True,4.8
+P079,EltaMD,EltaMD Treatment Gel 79,treatment,12.18,sensitive;normal;combination,anti-aging;sensitivity;texture,"water, glycerin, vitamin C, salicylic acid, peptides",vitamin C;salicylic acid;peptides,gel,True,True,4.1
+P080,Paula's Choice,Paula's Choice Sunscreen Lotion 80,sunscreen,46.54,dry;oily,pores;dehydration,"water, glycerin, ceramides, hyaluronic acid, salicylic acid",ceramides;hyaluronic acid;salicylic acid,lotion,False,True,3.6
+P081,La Roche-Posay,La Roche-Posay Cleanser Oil 81,cleanser,10.73,normal;combination;sensitive,sun,"water, glycerin, salicylic acid, vitamin C, retinol",salicylic acid;vitamin C;retinol,oil,False,True,5.0
+P082,Bioderma,Bioderma Moisturizer Lotion 82,moisturizer,11.08,combination;sensitive;normal,sensitivity;pores,"water, glycerin, hyaluronic acid",hyaluronic acid,lotion,False,True,4.6
+P083,Bioderma,Bioderma Treatment Oil 83,treatment,47.41,sensitive;oily;normal,anti-aging;acne;PIH,"water, glycerin, ceramides, hyaluronic acid",ceramides;hyaluronic acid,oil,False,True,3.8
+P084,The Ordinary,The Ordinary Sunscreen Gel 84,sunscreen,12.95,oily;sensitive;normal,sensitivity;texture;pores,"water, glycerin, hyaluronic acid, retinol",hyaluronic acid;retinol,gel,False,False,4.6
+P085,Bioderma,Bioderma Cleanser Gel 85,cleanser,13.62,oily;sensitive;combination,pores;sensitivity,"water, glycerin, zinc oxide, vitamin C, retinol",zinc oxide;vitamin C;retinol,gel,True,True,4.0
+P086,La Roche-Posay,La Roche-Posay Moisturizer Serum 86,moisturizer,29.85,normal;oily;dry,acne;texture,"water, glycerin, ceramides",ceramides,serum,True,True,4.6
+P087,Neutrogena,Neutrogena Moisturizer Gel 87,moisturizer,6.38,dry;combination;oily,sensitivity;anti-aging,"water, glycerin, hyaluronic acid, salicylic acid, azelaic acid",hyaluronic acid;salicylic acid;azelaic acid,gel,True,False,3.5
+P088,La Roche-Posay,La Roche-Posay Moisturizer Serum 88,moisturizer,27.03,dry;normal,pores,"water, glycerin, hyaluronic acid",hyaluronic acid,serum,True,False,4.7
+P089,EltaMD,EltaMD Cleanser Oil 89,cleanser,47.38,dry,pores;anti-aging;acne,"water, glycerin, ceramides, hyaluronic acid",ceramides;hyaluronic acid,oil,True,False,4.7
+P090,La Roche-Posay,La Roche-Posay Cleanser Serum 90,cleanser,30.99,normal;combination,PIH,"water, glycerin, ceramides",ceramides,serum,True,True,4.4
+P091,La Roche-Posay,La Roche-Posay Treatment Oil 91,treatment,28.73,sensitive;dry;normal,sun;pores;texture,"water, glycerin, retinol, zinc oxide",retinol;zinc oxide,oil,True,False,4.2
+P092,Neutrogena,Neutrogena Moisturizer Serum 92,moisturizer,8.75,oily;normal;combination,acne;texture,"water, glycerin, ceramides, salicylic acid",ceramides;salicylic acid,serum,True,False,4.2
+P093,Inkey List,Inkey List Cleanser Oil 93,cleanser,50.54,combination;normal;dry,dehydration;acne,"water, glycerin, salicylic acid, hyaluronic acid",salicylic acid;hyaluronic acid,oil,True,True,3.6
+P094,Clinique,Clinique Sunscreen Serum 94,sunscreen,31.61,normal,anti-aging;sensitivity,"water, glycerin, hyaluronic acid, niacinamide",hyaluronic acid;niacinamide,serum,False,True,4.0
+P095,Inkey List,Inkey List Sunscreen Lotion 95,sunscreen,18.35,sensitive;combination;dry,dehydration,"water, glycerin, ceramides, vitamin C",ceramides;vitamin C,lotion,True,True,4.0
+P096,Olay,Olay Moisturizer Cream 96,moisturizer,38.84,sensitive;oily;normal,pores;anti-aging;dehydration,"water, glycerin, hyaluronic acid",hyaluronic acid,cream,False,True,4.9
+P097,EltaMD,EltaMD Sunscreen Cream 97,sunscreen,17.1,combination,anti-aging,"water, glycerin, peptides",peptides,cream,True,False,4.8
+P098,Bioderma,Bioderma Treatment Serum 98,treatment,24.46,combination,dehydration;sun;sensitivity,"water, glycerin, vitamin C",vitamin C,serum,False,True,5.0
+P099,Bioderma,Bioderma Moisturizer Oil 99,moisturizer,17.47,normal,sensitivity;dehydration,"water, glycerin, zinc oxide, peptides, vitamin C",zinc oxide;peptides;vitamin C,oil,False,False,4.3
+P100,Olay,Olay Treatment Cream 100,treatment,45.26,normal,texture,"water, glycerin, peptides, salicylic acid",peptides;salicylic acid,cream,True,False,3.6
