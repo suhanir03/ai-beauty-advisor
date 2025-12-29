@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Beauty Advisor (MVP)
 
-## Getting Started
+🔗 **Live Demo:** ai-beauty-advisor-one.vercel.app 
+🎥 **Demo Video:** https://youtu.be/m2S1FONPZ5A
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Problem
+Choosing skincare products is overwhelming due to ingredient complexity, unclear pricing tiers, and a lack of transparent personalization. Most existing recommendation tools act as black boxes, offering little insight into *why* a product was suggested.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Solution
+I built an AI-powered beauty advisor that generates **explainable, confidence-scored product recommendations** based on a user’s skin type, primary concern, ingredient preferences, and budget.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The system prioritizes transparency by:
+- Explicitly scoring product fit
+- Surfacing reasoning behind each recommendation
+- Providing comparable alternatives within similar price ranges
 
-## Learn More
+Users can interact with the live prototype here:  
+👉 ai-beauty-advisor-one.vercel.app 
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Data Source
+The product dataset used in this MVP is synthetic data generated using AI to simulate realistic skincare products, ingredients, and pricing tiers.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This approach enabled rapid prototyping and validation of recommendation logic while keeping the system data-agnostic and ready for real product integrations.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tech Stack
+- **Frontend:** Next.js (App Router), React, TypeScript
+- **Backend:** Next.js API Routes
+- **Recommendation Logic:** Rule-based scoring with ingredient inference
+- **Data:** AI-generated synthetic CSV dataset
+- **Deployment:** Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Impact
+- Built an explainable recommendation engine with confidence scoring
+- Demonstrated how rule-based systems can outperform black-box recommendations for early-stage personalization
+- Delivered a production-ready MVP that can easily scale to real datasets with minimal refactoring
+
