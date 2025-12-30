@@ -18,7 +18,7 @@ type SurveyResponse = {
 type Product = {
   brand: string;
   name: string;
-  priceTier: Budget;
+  price: number;
   skinTypes: SkinType[];
   concerns: Concern[];
   heroIngredients: string[];
@@ -41,6 +41,11 @@ const INGREDIENT_TO_SKIN: Record<string, SkinType[]> = {
   niacinamide: ["oily", "combination", "sensitive"],
   hyaluronic: ["dry", "sensitive"],
 };
+  const BUDGET_RANGES: Record<Budget, [number, number]> = {
+  drugstore: [0, 15],
+  mid: [15, 30],
+  luxury: [30, Infinity],
+    };
 
 /* ---------------- HELPERS ---------------- */
 
@@ -88,9 +93,53 @@ function scoreProduct(product: Product, survey: SurveyResponse) {
     score += 2;
   }
 
-  if (product.priceTier === survey.budget) score += 2;
-
+  const [min, max] = BUDGET_RANGES[survey.budget];
+  if (product.price >= min && product.price <= max) {
+    score += 3;
+  } else if (
+    product.price >= min - 5 &&
+    product.price <= max + 5
+  ) {
+    score +=1;
+  } else {
+    score -=2;
+  }
+  
   return score;
+}
+
+function generateReasons(product: Product, survey: SurveyResponse) {
+  const reasons: string[] = [];
+
+  if (product.concerns.includes(survey.concern)) {
+    reasons.push(`Targets ${survey.concern}`);
+  }
+
+  if (product.skinTypes.includes(survey.skinType)) {
+    reasons.push(`Suitable for ${survey.skinType} skin`);
+  }
+
+  if (
+    survey.ingredientPreference &&
+    product.heroIngredients.includes(
+      survey.ingredientPreference.toLowerCase()
+    )
+  ) {
+    reasons.push(`Contains ${survey.ingredientPreference}`);
+  }
+
+
+  if (reasons.length === 0) {
+    reasons.push("Balanced formulation with broad compatibility");
+  }
+
+  return reasons;
+}
+
+function normalizeConfidence(score: number) {
+  const MAX_SCORE = 12;
+  const normalized = Math.round((score/MAX_SCORE) * 100);
+  return Math.min(100, Math.max(0, normalized));
 }
 
 /* ---------------- API ROUTE ---------------- */
@@ -119,7 +168,7 @@ export async function POST(req: Request) {
     return {
       brand: row.brand,
       name: row.name,
-      priceTier: "mid", // hardcoded for MVP
+      price: Number(row.price), // hardcoded for MVP
       skinTypes: inferred.skinTypes,
       concerns: inferred.concerns,
       heroIngredients: inferred.heroIngredients,
@@ -127,17 +176,34 @@ export async function POST(req: Request) {
   });
 
   const ranked = products
-    .map((product) => ({
-      product,
-      score: scoreProduct(product, survey),
-    }))
+    .map((product) => {
+      const score = scoreProduct(product, survey);
+
+      return {
+        product,
+        score,
+        confidence: normalizeConfidence(score),
+        reasons: generateReasons(product, survey),
+      };
+    })
     .sort((a, b) => b.score - a.score);
+
 
   const [core, alt1, alt2] = ranked;
 
   return Response.json({
-    coreRecommendation: core?.product,
-    alternatives: [alt1?.product, alt2?.product].filter(Boolean),
+    coreRecommendation: {
+      ...core?.product,
+      confidence: core?.confidence,
+      reasons:core?.reasons,
+    },
+    alternatives: [alt1, alt2]
+      .filter(Boolean)
+      .map((r) => ({
+        ...r.product,
+        confidence: r.confidence,
+        reasons: r.reasons,
+      })),
   });
 }
 
